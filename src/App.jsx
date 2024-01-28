@@ -84,6 +84,7 @@ export default function Game() {
 
   return (
     <div className="game">
+      <div className="author">Marcos Castañeda Ventura</div>
       <div className="title">Juega al tres en raya</div>
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
